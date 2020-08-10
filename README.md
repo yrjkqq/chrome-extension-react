@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. references
 
-- (Building a Chrome Extension Using React)[https://medium.com/@gilfink/building-a-chrome-extension-using-react-c5bfe45aaf36]
+- [Building a Chrome Extension Using React](https://medium.com/@gilfink/building-a-chrome-extension-using-react-c5bfe45aaf36)
 
 2. build
 
