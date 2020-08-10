@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## build chrome extensions
+
+1. build
+build 完成后的 index.html 文件中有行内脚本，在 chrome 中加载时会报错
+
+```
+Refused to execute inline script because it violates the following Content Security Policy directive: "script-src 'self' blob: filesystem:". Either the 'unsafe-inline' keyword, a hash ('sha256-+jh3+aAOMRKwuT2NGN21pVizPyWGdRyp6wd4zy8zE68='), or a nonce ('nonce-...') is required to enable inline execution.
+```
+
+需要将行内脚本单独提取到一个 js 文件中才可以顺利加载
+
+
 ## Available Scripts
 
 In the project directory, you can run:
