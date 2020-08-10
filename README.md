@@ -2,7 +2,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## build chrome extensions
 
-1. build
+1. references
+
+- (Building a Chrome Extension Using React)[https://medium.com/@gilfink/building-a-chrome-extension-using-react-c5bfe45aaf36]
+
+2. build
+
 build 完成后的 index.html 文件中有行内脚本，在 chrome 中加载时会报错
 
 ```
